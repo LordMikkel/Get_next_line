@@ -21,10 +21,10 @@
 
 ## 💻 Usage
 
+This is the main function to test `get_next_line`. It is already set up to read from a file or standard input. Simply compile it along with `get_next_line` and use it with test files.
+
 ```c
 #include "get_next_line.h"
-#include <fcntl.h>
-#include <stdio.h>
 
 int main(int ac, char **av)
 {
@@ -55,11 +55,14 @@ int main(int ac, char **av)
 
 ## 💻  Example Usage
 
+Compile and run with a test file:
+
 ```bash
 $ ./a.out example.txt
 ```
+This will read and display the contents of example.txt line by line.
 
-This will read and display the contents of example.txt line by line. If you run the program without arguments, it will read from standard input:
+If you run the program without arguments, it will read from standard input:
 ```bash
 $ ./a.out
 Hello, world!    <- You type this
