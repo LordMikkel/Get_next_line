@@ -2,6 +2,8 @@
 
 **A kind of command `cat` implementation in C**
 
+Whether it's a file, input, or even a network connection, you will always need to read the content line by line.
+
 ## 📋 Overview
 
 `get_next_line` is a C function that reads from a file descriptor and returns one line at a time. Each call to the function returns the next line from the file, making it ideal for:
