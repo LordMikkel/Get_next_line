@@ -1,6 +1,6 @@
 # get_next_line 📑
 
-**A kind of command cat implementation in C**
+**A kind of command `cat` implementation in C**
 
 ## 📋 Overview
 
