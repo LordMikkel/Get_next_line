@@ -117,3 +117,10 @@ Real-world file descriptor limits:
 * 🌐 Max System Limit: Millions (RAM-dependent)
 
 The function has been tested with both extremely small (BUFFER_SIZE=1) and extremely large (BUFFER_SIZE=100000+) buffer sizes, confirming its flexibility and robustness in various usage scenarios.
+
+---
+
+## 🏆 Credits
+
+Developed by **Mikel Garrido** as part of the 42 curriculum.
+🔗 [GitHub: LordMikkel](https://github.com/LordMikkel)
