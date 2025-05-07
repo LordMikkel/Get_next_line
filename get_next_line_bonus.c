@@ -6,7 +6,7 @@
 /*   By: migarrid <migarrid@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/28 19:11:10 by migarrid          #+#    #+#             */
-/*   Updated: 2025/02/27 23:21:54 by migarrid         ###   ########.fr       */
+/*   Updated: 2025/03/18 15:37:13 by migarrid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -141,4 +141,3 @@ char	*get_next_line(int fd)
 		remove_fd_node(&head, fd);
 	return (line);
 }
-

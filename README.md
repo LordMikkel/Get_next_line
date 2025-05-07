@@ -1,5 +1,7 @@
 # get_next_line 📑
 
+<p align="center"> <img src=".score.png" alt="alt text" /> </p>
+
 **A kind of command `cat` implementation in C**
 
 Whether it's a file, input, or even a network connection, you will always need to read the content line by line.
