@@ -6,7 +6,7 @@
 /*   By: migarrid <migarrid@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/28 19:11:10 by migarrid          #+#    #+#             */
-/*   Updated: 2025/02/27 23:21:34 by migarrid         ###   ########.fr       */
+/*   Updated: 2025/05/19 17:54:34 by migarrid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ static char	*read_into_stash(int fd, char *stash)
 {
 	char	*buffer;
 	char	*tmp;
-	int		bytes_read;
+	ssize_t		bytes_read;
 
 	buffer = malloc(BUFFER_SIZE + 1);
 	if (stash == NULL)
